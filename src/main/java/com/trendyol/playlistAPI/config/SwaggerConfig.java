@@ -1,4 +1,4 @@
-package com.trendyol.toyrobot.config;
+package com.trendyol.playlistAPI.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,8 +28,8 @@ public class SwaggerConfig {
     }
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Rover app")
-                .description("Make rovers great again")
+                .title("Playlist App")
+                .description("Playlists are on fire !")
                 .build();
     }
 }
